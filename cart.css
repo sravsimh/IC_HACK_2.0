@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+section.cart {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+table.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+tfoot {
+  font-weight: bold;
+}
+
+.payment-form {
+  margin-top: 20px;
+}
+
+.payment-form h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.payment-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.pay-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+}
